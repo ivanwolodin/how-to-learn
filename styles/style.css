@@ -25,7 +25,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo_place_header {
-  /* border: 1px dashed red; */
   position: absolute;
   width: 183px;
   height: 32px;
@@ -94,7 +93,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .description {
-  /* border: 1px dashed red; */
   width: 80%;
   display: flex;
   margin: auto;
@@ -110,7 +108,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 .two-columns__main-text {
   width: 80%;
   display: flex;
-  /* padding-bottom: 10px; */
   flex-direction: column;
   /* min-width: 784px; */
 }
@@ -125,7 +122,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .two-columns__brief {
   color: #2f80ed;
-  /* border: 1px dashed red; */
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -147,4 +143,64 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 /* DIGITS BLOCK */
+.table {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.table__cell {
+  width: 250px;
+  list-style-type: none;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.section-subtitle_space_top {
+  margin-top: 20px;
+}
+
+.digits_space_bottom {
+  margin-bottom: 100px;
+}
+
+.card-text
+{
+  padding-bottom: 20px;
+}
+
+.card-text:last-of-type {
+  padding-bottom: 0;
+}
