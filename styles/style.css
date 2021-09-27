@@ -90,14 +90,13 @@ body, h1, h2, h3, h4, h5, h6, p {
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
+  z-index: 2;
 }
 
 .description {
   width: 80%;
   display: flex;
   margin: auto;
-
 }
 
 .two-columns {
@@ -115,10 +114,6 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .two-columns__paragraph {
   padding-bottom: 30px;
-}
-
-.two-columns_space_top {
-  margin-top: 100px;
 }
 
 .two-columns__brief {
@@ -173,7 +168,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 .table__heading {
   line-height: 1.15;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 24px;
 }
 
@@ -186,19 +181,9 @@ body, h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 60px;
 }
 
-.section-subtitle_space_top {
-  margin-top: 20px;
-}
-
-.digits_space_bottom {
-  margin-bottom: 100px;
-}
-
-.card-text
-{
+.card-text {
   padding-bottom: 20px;
 }
 
@@ -209,11 +194,9 @@ body, h1, h2, h3, h4, h5, h6, p {
 /* FEYMAN BLOCK */
 .feynman {
   background-color: #f2f2f2;
-  /* border: 1px dashed red; */
   height: 890px;
-  /* display: block; */
   position: relative;
-  /* z-index: -2; */
+  overflow: hidden;
 }
 
 .feynman__title {
@@ -225,7 +208,6 @@ body, h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
   z-index: 2;
 }
 
@@ -259,11 +241,66 @@ body, h1, h2, h3, h4, h5, h6, p {
   z-index: 0;
 }
 
-.feynman__title-space_bottom {
-  margin-bottom: 70px;
+/* KAUFMAN BLOCK */
+.kaufman {
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 90px;
 }
 
+.section-title__theme_dark {
+  color: white;
+  font-weight: bolder;
+  /* z-index: 2; */
+}
 
-.feynman__title_space_top {
-  padding-top: 100px;
+.section-subtitle__theme_dark {
+  color: white;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877px;
+  height: 877px;
+  z-index: 0;
+}
+
+.space-bottom-s {
+  margin-bottom: 90px;
+}
+
+.space-bottom-m {
+  margin-bottom: 100px;
+}
+
+.space-top-xs {
+  margin-top: 20px;
+}
+
+.space-top-s {
+  margin-top: 60px;
+}
+
+.space-top-m {
+  margin-top: 70px;
+}
+
+.space-top-l {
+  margin-top: 90px;
+}
+
+.space-top-xl {
+  margin-top: 100px;
+}
+
+.inner-space-top-m {
+  padding-top: 60px;
+}
+
+.inner-space-top-l {
+  padding-top: 80px;
 }
