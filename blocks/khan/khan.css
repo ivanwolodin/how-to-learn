@@ -5,6 +5,7 @@
   background-color: #f2f2f2;
   margin-left: auto;
   margin-right: auto;
-  height: 1300px;
   overflow: hidden;
+  position: relative;
+  top: 320px;
 }
